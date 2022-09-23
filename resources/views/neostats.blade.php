@@ -12,16 +12,12 @@
 <body>
 
     <div id="app">
-        <div>
-            <div >
-                <input type="date" value="start date">
-                <input type="date" value="end date">
-            </div>
+        <center>
+            <div style="margin-top:25px"></div>
 
-            <button>Submit</button>
             <graphic-component></graphic-component>
 
-        </div>
+        </center>
         <script src="{{asset('js/app.js')}}"></script>
 </body>
 
